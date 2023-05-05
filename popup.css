@@ -1,0 +1,30 @@
+.container{
+    width: 5%;
+    height:5%;
+    padding: 0 10px;
+    background-color: #FFF8DC;
+}
+.title{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1em;
+    text-decoration: underline;
+    color: black;
+}
+.bookmark > div > img{
+    width:5px;
+    height: 5px;
+    clear:left;
+
+}
+.bookmark > div > img:hover{
+    transform: translate(2px,2px)
+}
+.bookmark{
+    display: block;
+    padding: 5px;
+    
+}
+.bookmark .text{
+    font-family: Garamond, serif;
+}
